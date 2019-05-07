@@ -1,0 +1,56 @@
+/* FONTS ------------------------------------------------------------*/
+
+//@include font-face( "melle","../../fonts/MElle-HK-Light", ("ttf", "svg", "eot" "woff2", "woff")) { font-style: normal; font-weight: 400;}
+
+
+/* BASE ------------------------------------------------------------*/
+
+html{
+	font-size: 16px;
+}
+
+body{
+	font-size: 16px;
+	font-family: $font-default;
+	color: $text-color;
+}
+
+a{
+	&:hover, &:focus{
+		text-decoration: none;
+	}
+}
+
+/* MARGINS AND PADDINGS ------------------------------------------------------------*/
+
+@for $i from 1 through 4 {
+	.mt-#{$i}x {
+		margin-top: calc(15px * #{$i}) !important;
+	}
+	.mb-#{$i}x {
+		margin-bottom: calc(15px * #{$i}) !important;
+	}
+	.pt-#{$i}x {
+		padding-top: calc(15px * #{$i}) !important;
+	}
+	.pb-#{$i}x {
+		padding-bottom: calc(15px * #{$i}) !important;
+	}
+}
+
+/* TITLES ------------------------------------------------------------*/
+
+.title{
+
+}
+
+/* HELPERS ------------------------------------------------------------*/
+
+
+
+
+/* TRANSITIONS ------------------------------------------------------------*/
+
+.trans{
+	transition: all 0.25s ease-in-out;
+}

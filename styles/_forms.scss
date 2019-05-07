@@ -1,0 +1,30 @@
+.form-group{
+	margin-bottom: 15px;
+	//@media (min-width: $screen-sm-min) {
+		margin-bottom: 25px;		
+	//}
+	.input, .select{
+		width: 100%;
+	}
+}
+
+/* CUSTOM INPUTS ----------------------------------------------*/
+
+.input {
+	@extend .trans;
+	height: 42px;
+	background: $white;
+	border: 1px solid #000;
+	color: $text-color;
+	font-family: $font-default;
+	padding: 0 15px;
+	&:focus{
+		outline: none;
+	}
+}
+
+/* CUSTOM SELECTS ----------------------------------------------*/
+
+.select {
+
+}

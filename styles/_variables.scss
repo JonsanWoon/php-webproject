@@ -1,0 +1,23 @@
+// Grid settings
+$spacer: 15px;
+
+// Colors
+$black: #000;
+$white: #fff;
+$text-color: #666;
+
+// Fonts
+$font-default: 'Arial', sans-serif;
+$font-icon: 'FontAwesome';
+
+//Font Awesome
+$fa-font-path: "../../libs/fontawesome/web-fonts-with-css/webfonts" !default;
+
+
+//CSS Colors
+.black{color: $black !important;}
+.white{color: $white !important;}
+
+//BG Colors
+.bg-black{background-color: $black !important;}
+.bg-white{background-color: $white !important;}
